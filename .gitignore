@@ -1,0 +1,14 @@
+node_modules/
+dist/
+release/
+vendor/
+.work/
+*.zip
+*.exe
+*.dll
+*.bin
+*.param
+*.log
+verification.json
+.DS_Store
+

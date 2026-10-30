@@ -1,0 +1,31 @@
+{
+  "name": "uro-print-lab-source-view",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Public source-viewing snapshot of URO PRINT LAB",
+  "author": "島騨うろ",
+  "main": "app/desktop.cjs",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shimadauro-cell/URO-PRINT-LAB.git"
+  },
+  "homepage": "https://github.com/shimadauro-cell/URO-PRINT-LAB",
+  "bugs": {
+    "url": "https://github.com/shimadauro-cell/URO-PRINT-LAB/issues"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "sharp": "0.35.4"
+  },
+  "devDependencies": {
+    "electron": "37.10.3"
+  },
+  "scripts": {
+    "check": "node --check app/server.mjs && node --check app/app.js && node --check app/desktop.cjs",
+    "test:processing": "node tests/verify.mjs"
+  }
+}
+
